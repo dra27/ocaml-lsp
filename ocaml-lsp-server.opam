@@ -54,6 +54,12 @@ depends: [
   "cmarkit"
   "re2"
 ]
+pin-depends: [
+  ["dot-merlin-reader.5.2.1-502+ox" "git+https://github.com/oxcaml/merlin.git#merge-5.2.0minus-25"]
+  ["merlin.5.2.1-502+ox" "git+https://github.com/oxcaml/merlin.git#merge-5.2.0minus-25"]
+  ["merlin-lib.5.2.1-502+ox" "git+https://github.com/oxcaml/merlin.git#merge-5.2.0minus-25"]
+  ["ocaml-index.1.1+ox" "git+https://github.com/oxcaml/merlin.git#merge-5.2.0minus-25"]
+]
 dev-repo: "git+https://github.com/ocaml/ocaml-lsp.git"
 build: [
   ["dune" "subst"] {dev}
