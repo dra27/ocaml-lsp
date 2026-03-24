@@ -52,6 +52,7 @@ depends: [
   "core_unix"
   "async"
   "cmarkit"
+  "re2"
 ]
 dev-repo: "git+https://github.com/ocaml/ocaml-lsp.git"
 build: [
